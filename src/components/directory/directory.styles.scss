@@ -1,0 +1,15 @@
+$layout-breakpoint-small: 720px;
+
+.directory-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+  .directory-menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
